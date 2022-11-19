@@ -1,16 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Initial from './client/pages/initial';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-    
-        <p>
-         pokemondle
-        </p>
-       
-      </header>
+    <div>
+      <Initial/>
     </div>
   );
 }

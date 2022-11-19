@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(87, 68, 47);
+  text-shadow: 1px 1px #fff;
+}
+
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.button-img{
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+  border: solid 2px rgb(87, 68, 47);;
+  border-radius: 100%;
+}
+.button-game{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  border-style: groove;
+  border: solid #fff; 
+  border-radius: 15px;
+  padding:10px;
+  background-color: #fff; 
+}
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:15px;
+
+}
